@@ -3,6 +3,7 @@ import 'package:whatsInsideQR/generate.dart';
 import 'package:whatsInsideQR/scanner.dart';
 import 'package:flutter/services.dart';
 import 'package:page_transition/page_transition.dart';
+import 'package:barcode_scan/barcode_scan.dart';
 
 class Homepage extends StatefulWidget {
   @override
@@ -10,6 +11,9 @@ class Homepage extends StatefulWidget {
 }
 
 class _HomepageState extends State<Homepage> with TickerProviderStateMixin {
+
+  String scanContents = "";
+
   PageController _pageController;
   AnimationController rippleController;
   AnimationController scaleController;
@@ -28,12 +32,12 @@ class _HomepageState extends State<Homepage> with TickerProviderStateMixin {
 
     rippleController = AnimationController(
       vsync: this,
-      duration: Duration(seconds: 1)
+      duration: Duration(milliseconds: 100)
     );
 
     scaleController = AnimationController(
       vsync: this,
-      duration: Duration(seconds: 1)
+      duration: Duration(milliseconds: 100)
     )..addStatusListener((status) {
       if (status == AnimationStatus.completed) {
         Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: Generator())
@@ -43,13 +47,29 @@ class _HomepageState extends State<Homepage> with TickerProviderStateMixin {
       }
     });
 
+    Future doScan() async{
+      try{
+        ScanResult scanRes = await BarcodeScanner.scan();
+        setState(() {
+          scanContents = scanRes.toString();
+        });
+      } on PlatformException catch(ex) {
+        print("Platform Exception!");
+      }
+      
+    }
+
     scanScaleController = AnimationController(
       vsync: this,
-      duration: Duration(seconds: 1)
+      duration: Duration(milliseconds: 100)
     )..addStatusListener((status) {
       if (status == AnimationStatus.completed) {
-        Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: Scanner())
+        /*Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: Scanner())
         ).then((value) {
+          scanScaleController.reset();
+        });
+        */
+        doScan().then((value) {
           scanScaleController.reset();
         });
       }

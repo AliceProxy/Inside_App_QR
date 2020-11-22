@@ -1,0 +1,30 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.matheusvillela.flutter.plugins.qrcodereader"
+4    android:versionCode="1"
+5    android:versionName="0.0.1" >
+6
+7    <uses-sdk
+7-->C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:6:5-8:40
+8        android:minSdkVersion="18"
+8-->C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:7:9-35
+9        android:targetSdkVersion="21" />
+9-->C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:8:9-38
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:10:5-64
+11-->C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:10:22-62
+12
+13    <application>
+13-->C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:11:5-16:19
+14        <activity
+14-->C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:12:9-15:98
+15            android:name="com.matheusvillela.flutter.plugins.qrcodereader.QRScanActivity"
+15-->C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:14:13-43
+16            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+16-->C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:15:13-96
+17            android:theme="@android:style/Theme.NoTitleBar" />
+17-->C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:13:13-60
+18    </application>
+19
+20</manifest>

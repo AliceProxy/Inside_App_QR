@@ -1,0 +1,43 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:1:1-17:12
+INJECTED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:1:1-17:12
+INJECTED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:1:1-17:12
+INJECTED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:1:1-17:12
+INJECTED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:1:1-17:12
+INJECTED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:1:1-17:12
+INJECTED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:1:1-17:12
+	package
+		ADDED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:1:11-68
+		INJECTED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:4:11-38
+		INJECTED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:3:11-34
+		INJECTED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:6:5-8:40
+	android:targetSdkVersion
+		ADDED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:8:9-38
+	android:minSdkVersion
+		ADDED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:7:9-35
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:10:5-64
+	android:name
+		ADDED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:10:22-62
+application
+ADDED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:11:5-16:19
+activity#com.matheusvillela.flutter.plugins.qrcodereader.QRScanActivity
+ADDED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:12:9-15:98
+	android:configChanges
+		ADDED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:15:13-96
+	android:theme
+		ADDED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:13:13-60
+	android:name
+		ADDED from C:\Users\dwask\AppData\Local\Pub\Cache\git\flutter_qrcode_reader-755c2194587ef452ff5999167ec9b5b4617fce22\android\src\main\AndroidManifest.xml:14:13-43

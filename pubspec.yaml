@@ -31,6 +31,14 @@ dependencies:
   
   cupertino_icons: ^0.1.3
 
+
+  barcode_scan:
+  path_provider: 0.4.1
+  qr_flutter:
+    git:
+      url: git://github.com/lukef/qr.flutter.git
+      ref: 2.0.0-dev.1
+
   auto_size_text:
   flutter_image:
   page_view_indicators:
